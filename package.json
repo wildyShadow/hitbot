@@ -1,6 +1,6 @@
 {
   "name": "@wildyshadow/hitbot",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A simple package to run a bot on the game hitbox.io",
   "main": "index.js",
   "scripts": {
