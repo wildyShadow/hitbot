@@ -1,1 +1,1 @@
-console.log("hitbot!!!");
+module.exports = require("./hitbot.js");
