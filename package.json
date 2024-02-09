@@ -1,0 +1,11 @@
+{
+  "name": "@wildyshadow/hitbot",
+  "version": "1.0.0",
+  "description": "A simple package to run a bot on the game hitbox.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "iNeonz/wildyshadow",
+  "license": "ISC"
+}
