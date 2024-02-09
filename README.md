@@ -1,7 +1,7 @@
 # Hitbot - A Simple Bot for hitbox.io
   Hitbot is a package to run a bot on the game "hitbox.io", the usage is simple, start creating a bot instance like the example below:
   
-    const hitbot = require("./hitbot.js");
+    const hitbot = require("@wildyshadow/hitbot");
     const bot = new hitbot({
 	      name: "Hitbot", // Name of the bot!
         skin: 375932, // Skin color!
