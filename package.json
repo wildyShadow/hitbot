@@ -1,6 +1,6 @@
 {
   "name": "@wildyshadow/hitbot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple package to run a bot on the game hitbox.io",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "iNeonz/wildyshadow",
   "license": "ISC",
   "publishConfig": {
-		"@wildyShadow:registry": "https://npm.pkg.github.com"
-   }
+    "@wildyShadow:registry": "https://npm.pkg.github.com"
+  }
 }
