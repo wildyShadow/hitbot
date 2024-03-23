@@ -133,7 +133,7 @@ class hitbot{
 				ws.send("2probe");
 				ws.send("5");
 				ws.send(timesync());
-				let roomInfo = `42[2,{"i":3,"a":"8*^^86%ff^GjtudfjHg2","joinID":"${address.address}","playerName":"${self.options.name}","peerID":"","password":"${address.passbypass || ""}","token":"${self.options.token}","cosmetic":{"1":${self.options.skin}}}]`;
+				let roomInfo = `42[2,{"token":"${self.options.token}","version":64,"i":4,"a":"8*^^86%ff^GjtudfjHg2","joinID":"${address.address}","playerName":"${self.options.name}","peerID":"","password":"${address.passbypass || ""}","cosmetic":{"1":${self.options.skin}}}]`;
 				ws.send(roomInfo)
 				setInterval(() => {
 					ws.send(timesync())
